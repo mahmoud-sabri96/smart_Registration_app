@@ -1,0 +1,86 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box !important;
+    caret-color: #0dcaf0;
+}
+
+section {
+    padding: 2.5rem 0px;
+}
+
+.output {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.login {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    border-radius: 20px;
+    /* width:85% !important */
+}
+
+input {
+    background-color: transparent !important;
+}
+
+.submitBtn:hover {
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+    transition: .3s;
+}
+
+.submitBtn {
+    background-color: transparent !important;
+}
+
+a {
+    color: #fff !important;
+}
+
+label,
+small {
+    font-size: 14px !important;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.signUp_icon,
+.login_icon {
+    top: calc(50%);
+    transform: translateY(-50%);
+    right: 2%;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .login {
+        width: 90% !important;
+        padding: 25px !important
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    label,
+    small {
+        display: block;
+        width: 100% !important;
+        margin-top: 2px !important;
+    }
+
+    label {
+        font-size: 14px !important;
+    }
+
+    small {
+        font-size: 12px !important;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+}

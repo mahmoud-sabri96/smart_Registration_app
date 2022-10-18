@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome  -->
+    <link rel="stylesheet" href="fontawesome/all.min.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/index_style.css">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="login w-50 mx-auto p-3">
+                <h1 class="text-center text-info mb-4">Smart Login System</h1>
+
+                <div class="name">
+                    <label for="emailRegs" class="text-info mb-1">Name</label>
+                    <input id="nameRegs" type="text" class="form-control text-white mb-3" placeholder="Enter Your name">
+                </div>
+
+                <div class="email mb-3">
+                    <label for="emailRegs" class="text-info mb-1">Email</label>
+                    <input id="emailRegs" type="email" class="form-control text-white " placeholder="Enter Your Email">
+                    <small class="text-muted">Example@example.com</small>
+                </div>
+
+                <p class="emailMsg text-danger text-center fw-bold">
+                    <!--Message will appear here By Js-->
+                </p>
+
+                <div class="password position-relative mb-3">
+                    <label for="emailRegs" class="text-info mb-1">Password</label>
+                    <input id="passwordRegs" type="password" class="form-control text-white "
+                        placeholder="Enter Your Password">
+                    <small class="text-muted">Password must be 3-20 digit to be valid</small>
+                    <span class="signUp_icon position-absolute"><i
+                            class="fa-solid  fa-eye-slash text-secondary"></i></span>
+                </div>
+
+                <p class="message text-danger text-center  fw-bold"></p>
+                <button onclick="signUp()" type="submit"
+                    class="submitBtn btn btn-outline-info w-50 d-block mx-auto my-4">Sign
+                    Up</button>
+                <p class="text-white text-center">You have an account? <a href="index.html">Sign In</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FontAwesome  -->
+    <script src="fontawesome/all.min.js"></script>
+    <!-- JS file  -->
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
