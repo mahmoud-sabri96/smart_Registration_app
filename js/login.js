@@ -5,6 +5,7 @@ var passwordInputDom = document.getElementById("uPasssword");
 var warningMsg = document.querySelector("p.message");
 let showPasswordIcon = document.querySelector("span.login_icon ");
 
+console.log(location)
 
 // ### Checking localStorage ###
 let allUsers;
@@ -39,7 +40,7 @@ function login() {
             };
 
             if (userIsExist == true) {
-                location.href = "../ourPage.html"
+                location.pathname = "../ourPage.html";
             }
             else {
                 alert("Please Register First Before Login !")
