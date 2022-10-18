@@ -40,7 +40,7 @@ function login() {
             };
 
             if (userIsExist == true) {
-                location.pathname = "../ourPage.html";
+                location.pathname = "ad/ourPage.html";
             }
             else {
                 alert("Please Register First Before Login !")
