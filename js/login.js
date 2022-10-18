@@ -39,7 +39,7 @@ function login() {
             };
 
             if (userIsExist == true) {
-                location.replace("../ourPage.html")
+                location.href = "../ourPage.html"
             }
             else {
                 alert("Please Register First Before Login !")
